@@ -25,12 +25,12 @@ Mục 3: Nhận xét về chuyên môn
 Machine Learning 
 Tư duy về mô hình: Nếu bạn phải giải thích mô hình của mình cho một người 
 không biết về Machine Learning, bạn sẽ mô tả nó như thế nào?
-Câu trả lời: Mô hình của nhóm tôi là một mô hình học tập bởi máy thực hiện để dự đoán về giá nhà ở Việt Nam năm 2025 và truyền về kết quả 
+Câu trả lời: Mô hình của nhóm em là một mô hình học tập bởi máy thực hiện để dự đoán về giá nhà ở Việt Nam năm 2025 và truyền về kết quả và mô hình phân tích.
 Thử nghiệm và điều chỉnh: Trong quá trình huấn luyện mô hình, bạn có từng thử 
 nghiệm các siêu tham số khác nhau không? Nếu có, hãy mô tả một lần thử nghiệm 
 và kết quả bạn thu được. 
-Câu trả lời:
+Câu trả lời: Chúng em chưa thử mô hình siêu tham số khác
 Cải tiến mô hình: Nếu mô hình của bạn chưa đạt hiệu suất như mong muốn, bạn 
 sẽ làm gì để cải thiện? Hãy đề xuất ít nhất hai cách để nâng cao độ chính xác hoặc 
 hiệu suất của mô hình. 
-Câu trả lời: quá trình học của mô hình tốn thời gian lâu hơn bình thường
+Câu trả lời: Để cải tiến mô hình, nhóm em sẽ thử thêm các models khác như XGBoost hoặc LightGBM, thêm việc lựa chọn các feature cho mô hình để loại bỏ các feature không cần thiết, sử dụng Hyperparameter tuning
