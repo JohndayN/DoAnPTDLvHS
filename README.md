@@ -22,6 +22,19 @@ Mục 3: Nhận xét về chuyên môn
         - Có loại bỏ dữ liệu bất thường trước khi đưa vào tập huấn luyện và tập kiểm tra.
         - Hiểu được các giá trị tham số hyperparameter: learning rate, epoch, batch-size, ... 
 
+Phân tích dữ liệu 
+Hiểu về dữ liệu: Nếu bạn phải giải thích dữ liệu trong đồ án cho một người không 
+có chuyên môn về phân tích dữ liệu, bạn sẽ mô tả nó như thế nào? Những thông 
+tin quan trọng nhất mà người đó cần biết là gì? 
+Câu trả lời: Dữ liệu giá nhà ở Việt Nam có 12 cột và 30229 dòng dữ liệu khác nhau, 12 cột đó là [Address, Area, Fontage, Access Road, House direction, Balcony direction, Floors, Bedrooms, Bathrooms, Legal status, Furniture state, Price] và cột thông tin quan trọng nhất là cột Price
+Phát hiện bất thường: Bạn có phát hiện được điểm bất thường (outliers) trong dữ 
+liệu không? Nếu có, bạn đã xử lý chúng như thế nào và tại sao?
+Câu trả lời: Dữ liệu có các dòng trống trong cột Price, chúng em xử lý bằng cách đưa giá trị trung bình của tất cả cột price vào đó 
+Định hướng cải tiến phân tích dữ liệu: Nếu có thêm thời gian, bạn nghĩ mình có 
+thể cải thiện phần phân tích dữ liệu của đồ án như thế nào? Hãy đề xuất ít nhất một 
+cách tiếp cận khác mà bạn chưa thử. 
+Câu trả lời: Nếu dư thời gian, chúng em sẽ tập trung phân tích thêm vào chu kỳ của dữ liệu do bài làm của nhóm em chưa có đủ dữ liệu này. Nếu có thể, chúng em cũng sẽ thêm Mutual Information và Principal Component vào trong việc phân tích dữ liệu
+
 Machine Learning 
 Tư duy về mô hình: Nếu bạn phải giải thích mô hình của mình cho một người 
 không biết về Machine Learning, bạn sẽ mô tả nó như thế nào?
