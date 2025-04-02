@@ -42,7 +42,8 @@ Câu trả lời: Mô hình của nhóm em là một mô hình học tập bởi
 Thử nghiệm và điều chỉnh: Trong quá trình huấn luyện mô hình, bạn có từng thử 
 nghiệm các siêu tham số khác nhau không? Nếu có, hãy mô tả một lần thử nghiệm 
 và kết quả bạn thu được. 
-Câu trả lời: Chúng em chưa thử mô hình siêu tham số khác
+Câu trả lời: Chúng em có cho phép mô hình học máy sử dụng các tham số khác nhau như learning_rate là 0.001 hoặc 0.01
+activation là Relu hoặc tanh, hidden_layer_sizes là (64, 32) hoặc (128, 64) hoặc (256, 128, 64)
 Cải tiến mô hình: Nếu mô hình của bạn chưa đạt hiệu suất như mong muốn, bạn 
 sẽ làm gì để cải thiện? Hãy đề xuất ít nhất hai cách để nâng cao độ chính xác hoặc 
 hiệu suất của mô hình. 
